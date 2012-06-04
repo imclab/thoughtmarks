@@ -1,0 +1,129 @@
+<!--
+ * Copyright (c) 2009 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+<head>
+<title>Screen Capture</title>
+<meta charset="UTF-8">
+<link href="showimage.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <embed id="pluginobj" width="0" height="0" type="application/x-screencapture" />
+
+  <div id="showBox">
+  <div id="photo">
+  <canvas id="canvas" onSelectStart="return false"></canvas>
+  <canvas id="mask-canvas" onSelectStart="return false"></canvas>
+  <div class="layer" id="layer0"></div>
+
+  
+  </div>
+  </div>
+  
+  <div id="overlay"></div>
+   	 <div id="controls">
+  		<button onclick="photoshop.save()">save bookmark</button>
+ 	 </div>
+  <script>
+  function isHighVersion() {
+    var version = navigator.userAgent.match(/Chrome\/(\d+)/)[1];
+    return version > 9;
+  }
+  
+  function $(id) {
+    return document.getElementById(id);
+  }
+  function i18nReplace(id, messageKey) {
+    return $(id).innerHTML = chrome.i18n.getMessage(messageKey);
+  }
+  //UploadUI.init();
+
+  var bg = chrome.extension.getBackgroundPage();
+  //var canvas = new Canvas();
+  var photoshop = {
+    canvas: document.createElement("canvas"),
+    tabTitle: '',
+    startX: 0,
+    startY: 0,
+    endX: 0,
+    endY: 0,
+    dragFlag: false,
+    flag: 'rectangle',
+    layerId: 'layer0',
+    canvasId: '',
+    color: '#ff0000',
+    highlightColor: '',
+    lastValidAction: 0,
+    markedArea: [],
+    isDraw: true,
+    offsetX: 0,
+    offsetY: 36,
+    nowHeight: 0,
+    nowWidth: 0,
+    highlightType: 'border',
+    highlightMode: 'rectangle',
+    text: '',
+
+    i18nReplace: i18nReplace,
+
+    initCanvas: function() {
+      $('canvas').width = $('photo').style.width =
+          photoshop.canvas.width = bg.screenshot.canvas.width;
+      $('canvas').height  = $('photo').style.height =
+          photoshop.canvas.height = bg.screenshot.canvas.height;
+      var context = photoshop.canvas.getContext('2d');
+      context.drawImage(bg.screenshot.canvas, 0, 0);
+      context = $('canvas').getContext('2d');
+      context.drawImage(photoshop.canvas, 0, 0);
+      $('canvas').style.display = 'block';
+    },
+
+    init: function() {
+      var isMac = bg.screenshot.isThisPlatform('mac');
+
+      photoshop.initCanvas();
+      photoshop.tabTitle = bg.screenshot.tab.title;
+      
+    },
+    
+    save: function() {
+      var formatParam  = localStorage.screenshootQuality || 'png';
+      var dataUrl;
+      if (formatParam == 'jpeg' && isHighVersion())
+        dataUrl = $('canvas').toDataURL('image/jpeg', 0.5);
+      else
+        dataUrl = $('canvas').toDataURL('image/png');
+
+	chrome.tabs.getSelected(null, function(tab) {
+		console.log(localStorage.savePath)
+        if (bg.plugin.autoSave(dataUrl, bg.screenshot.tab.title, localStorage.savePath)) {
+          bg.screenshot.captureStatus = true;
+        } else {
+          bg.screenshot.captureStatus = false;
+        }
+      });
+      bg.screenshot.showNotification();
+      //photoshop.finish();
+    },
+
+   
+  };
+
+  photoshop.init();
+
+
+  // Control more tools list showing and hiding.
+  (function() {
+    const HIDE_MORE_TOOLS_DELAY = 200;
+    var timer;
+
+    var isMac = bg.screenshot.isThisPlatform('mac');
+    var isLinux = bg.screenshot.isThisPlatform('linux');
+   
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  font-size: 12px;
+  font-family: arial, Verdana;
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+}
+#header {
+  background: url(images/toolbar_bg.png);
+  height: 36px;
+  overflow: hidden;
+}
+#showBox {
+   overflow: auto;
+}
+#photo {
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  background:#ffffff;
+}
+
+#controls{
+	margin: 20px;
+  padding: 20px;
+	
+}
+#tip {
+  color: #333333;
+  padding: 0 5px;
+  height: 36px;
+  font-size: 13px;
+  line-height: 36px;
+  overflow: hidden;
+  text-align: left;
+  margin: 0 180px 0 300px;
+}

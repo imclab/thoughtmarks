@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/404/trunk/release-5.0.4/i18n_styles
+END
+en_options.css
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/404/trunk/release-5.0.4/i18n_styles/en_options.css
+END
+en_US_upload_image.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/404/trunk/release-5.0.4/i18n_styles/en_US_upload_image.css
+END
+zh_CN_upload_image.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/404/trunk/release-5.0.4/i18n_styles/zh_CN_upload_image.css
+END

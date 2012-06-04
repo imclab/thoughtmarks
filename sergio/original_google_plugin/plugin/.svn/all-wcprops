@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin
+END
+build_64.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/build_64.sh
+END
+np_entry.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/np_entry.cc
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/utils.h
+END
+screen_capture.sln
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.sln
+END
+key_binder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/key_binder.cc
+END
+screen_capture.def
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.def
+END
+key_binder.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/key_binder.h
+END
+screen_capture_script_object.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture_script_object.h
+END
+screen_capture.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.vcproj
+END
+screen_capture_plugin.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture_plugin.cc
+END
+script_object_factory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/script_object_factory.cc
+END
+script_object_factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/script_object_factory.h
+END
+script_object_base.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/script_object_base.cc
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/build.sh
+END
+capture_linux.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/capture_linux.h
+END
+screen_capture.mm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.mm
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/resource.h
+END
+plugin_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/plugin_base.h
+END
+capture_window.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/capture_window.h
+END
+screen_capture.so
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.so
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/Info.plist
+END
+nptypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/nptypes.h
+END
+build_mac.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/build_mac.sh
+END
+screen_capture_64.so
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture_64.so
+END
+npfunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/npfunctions.h
+END
+npapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/npapi.h
+END
+screen_capture_script_object.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture_script_object.cc
+END
+npn_entry.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/npn_entry.cc
+END
+npp_entry.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/npp_entry.cc
+END
+screen_capture.rc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.rc
+END
+log.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/log.cc
+END
+screen_capture_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture_plugin.h
+END
+capture_linux.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/capture_linux.cc
+END
+npruntime.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/npruntime.h
+END
+screen_capture.suo
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.suo
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/log.h
+END
+plugin_factory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/plugin_factory.cc
+END
+script_object_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/script_object_base.h
+END
+plugin_factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/plugin_factory.h
+END
+plugin_base.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/plugin_base.cc
+END
+screen_capture.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/screen_capture.dll
+END
+capture_window.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/404/trunk/release-5.0.4/plugin/capture_window.cc
+END
